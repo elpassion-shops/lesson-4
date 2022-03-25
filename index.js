@@ -1,7 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.example = void 0;
 function example() {
-  return 5;
+    return 5;
 }
-
-module.exports = {
-  example,
-};
+exports.example = example;
