@@ -12,3 +12,13 @@ export function example() {
 }
 ```
 3. Try to run code with `node index.ts`. What's wrong?
+4. Convert export to old syntax. (New one is still not fully supported across packages).
+```js
+function example() { // don't use the export keyword. It's not supported in node.
+  return 5;
+}
+
+module.exports = { // to export function use module.exports rather than export keyword
+  example
+};
+```
