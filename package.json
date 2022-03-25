@@ -1,0 +1,24 @@
+{
+  "name": "with-recording",
+  "version": "0.0.1",
+  "description": "Automatically record your requests using nock.",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepack": "rm -rf dist/ && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elpassion-shops/mwpackage.git"
+  },
+  "author": "michalwarda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elpassion-shops/mwpackage/issues"
+  },
+  "homepage": "https://github.com/elpassion-shops/mwpackage#readme"
+}
